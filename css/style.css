@@ -1,0 +1,28 @@
+p {
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h1 {
+	color: magenta;
+	font-family: 'Revalia', cursive;
+}
+
+/* Ändra bakgrundsfärg på meny */
+.navbar-inverse {
+	background-color: green;
+}
+
+/* Ändra färg på text i meny */
+.navbar-inverse .navbar-nav > li > a {
+	color: magenta;
+}
+
+body{
+	background-image: url("../bilder/scratch-og.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;	
+}
